@@ -29,7 +29,8 @@ Additionally, leaked source code and configuration details can help attackers un
 
 ### Leaked Source Code
 
-![Source Code](screenshots/source-code.png)
+
+
 
 The screenshot has been redacted to hide sensitive information.
 
