@@ -45,6 +45,23 @@ ADMIN_PASSWORD=[REDACTED]
 7. Verify that the sensitive credential was removed only from the current version but remains available in Git history.
 
 ## Proof of Concept (PoC)
+### Extracted Repository Files
+
+![Repository Files](screenshots/repository-files.png)
+
+### Git History Revealing the Removed Password
+
+![Removed Password](screenshots/git-history-removed-password.png)
+
+### Administrative Access
+
+![Admin Panel](screenshots/admin-panel-access.png)
+
+### Disclosed Administrator Password
+
+![Admin Password](screenshots/admin-password-disclosure.png)
+
+The screenshot has been redacted to hide sensitive information.
 
 Screenshots showing:
 
