@@ -48,6 +48,13 @@ Password: peter
 11. Verify that the user `carlos` has been successfully deleted.
 
 ## Proof of Concept (PoC)
+### Admin Panel Access
+
+![Admin Access](screenshots/admin-access.png)
+
+### Delete User Action
+
+![Delete User](screenshots/delete-user.png)
 
 Screenshots showing:
 
