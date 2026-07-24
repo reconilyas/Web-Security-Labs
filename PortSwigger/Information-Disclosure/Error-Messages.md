@@ -33,6 +33,8 @@ Apache Struts 2.3.31
 
 ## Proof of Concept (PoC)
 
+![Apache Struts Version](screenshots/apache-struts-version.png)
+
 Screenshots showing:
 
 1. The modified request in Burp Suite.
