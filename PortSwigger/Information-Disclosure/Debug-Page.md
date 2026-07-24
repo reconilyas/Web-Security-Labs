@@ -29,6 +29,9 @@ Additionally, exposed configuration information can help attackers understand th
 6. Locate the exposed `SECRET_KEY`.
 
 ## Proof of Concept (PoC)
+![Debug Page Information Disclosure](screenshots/debug-page-redacted.png)
+
+The screenshot has been redacted to hide sensitive information.
 
 Screenshots showing:
 
