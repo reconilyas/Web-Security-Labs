@@ -23,6 +23,14 @@ Additionally, leaked source code and configuration details can help attackers un
 7. Identify the hard-coded database credentials.
 
 ## Proof of Concept (PoC)
+### Exposed Backup Directory
+
+![Backup Directory](screenshots/backup-directory.png)
+
+### Leaked Source Code
+
+![Source Code](screenshots/source-code.png)
+The screenshot has been redacted to hide sensitive information.
 
 Screenshots showing:
 
