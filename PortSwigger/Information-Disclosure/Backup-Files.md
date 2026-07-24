@@ -28,9 +28,8 @@ Additionally, leaked source code and configuration details can help attackers un
 ![Backup Directory](screenshots/backup-directory.png)
 
 ### Leaked Source Code
-![Backup Directory](screenshots/code-disclosure-directory.png)
 
-
+![Code Disclosure](screenshots/code-disclosure.png)
 
 The screenshot has been redacted to hide sensitive information.
 
