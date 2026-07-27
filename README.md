@@ -1,39 +1,56 @@
 # Web Security Labs
 
-## About
+## Overview
 
-This repository contains my learning journey in web application security through practical labs, vulnerability research, and security reports.
+This repository contains my practical exercises, write-ups, and security reports while learning web application security.
 
-The goal is to document my progress, improve my understanding of web vulnerabilities, and practice writing professional security reports.
+It includes labs from different security platforms, vulnerability research exercises, and documented findings related to web security.
+
+## Learning Approach
+
+For each topic, I follow a structured process:
+
+1. Learn
+   - Understand the vulnerability, root cause, impact, and mitigation.
+
+2. Practice
+   - Exploit vulnerabilities in authorized labs and training environments.
+
+3. Document
+   - Write professional reports with reproduction steps, proof of concept, screenshots, and remediation.
 
 ## Topics Covered
 
-- Web Fundamentals
-- HTTP Requests and Responses
-- Burp Suite
 - Information Disclosure
-- Authentication Vulnerabilities
-- OWASP Top 10
-- Web Application Security Testing
+- Access Control
+- Authentication
+- SQL Injection
+- Cross-Site Scripting (XSS)
+- File Upload Vulnerabilities
+- Server-Side Request Forgery (SSRF)
+- API Security
+- Other Web Security Topics
 
-## Labs
+## Platforms
 
-Currently practicing:
+- PortSwigger Web Security Academy
+- TryHackMe
+- Hack The Box
+- Other authorized security training platforms
 
-- PortSwigger Web Security Academy Labs
+## Report Structure
 
-## Skills Practiced
+Each write-up includes:
 
-- Vulnerability Identification
-- Manual Testing
-- Request Analysis
-- Security Report Writing
-- Web Application Reconnaissance
+- Vulnerability Summary
+- Impact
+- Steps to Reproduce
+- Proof of Concept (PoC)
+- Screenshots
+- Remediation
 
-## Tools
+## Disclaimer
 
-- Burp Suite
-- Feroxbuster
-- FFUF
-- Git
-- Linux
+All testing is performed only on authorized environments and educational platforms.
+
+This repository is created for learning purposes and to document my progress in web application security.
