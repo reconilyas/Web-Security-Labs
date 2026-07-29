@@ -25,6 +25,24 @@ This may allow the attacker to perform privileged actions, such as viewing sensi
 
 ## Proof of Concept (PoC)
 
+### Modified Request
+
+The `admin` parameter was modified from `false` to `true`.
+
+![Modified Request](screenshots/modified-request.png)
+
+### Administration Panel
+
+The modified request granted access to the administration panel.
+
+![Administration Panel](screenshots/admin-panel.png)
+
+### Delete User
+
+The user `carlos` was successfully deleted.
+
+![Delete User](screenshots/delete-user.png)
+
 Screenshots showing:
 
 1. The modified GET request.
