@@ -38,7 +38,7 @@ Carlos's GUID was identified from the URL.
 
 Carlos's API key was exposed after accessing his account.
 
-![Exposed API Key](screenshots/exposed-api-key.png)
+![Exposed API Key](screenshots/api-key-exposure.png)
 
 Screenshots showing:
 
