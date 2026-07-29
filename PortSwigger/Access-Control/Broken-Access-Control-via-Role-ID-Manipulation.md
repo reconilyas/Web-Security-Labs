@@ -26,29 +26,23 @@ This may allow the attacker to access administrative functionality and perform p
 
 ## Proof of Concept (PoC)
 
-### Original Request
+### Original Role ID Request
 
 The original request contained the user-controlled `roleID` parameter.
 
-![Original Request](screenshots/original-request.png)
+![Original Role ID Request](screenshots/original-role-id-request.png)
 
-### Modified Request
+### Modified Role ID Request
 
-The `roleID` value was modified to the administrator role ID.
+The `roleID` parameter was modified to the administrator role value.
 
-![Modified Request](screenshots/modified-request.png)
+![Modified Role ID Request](screenshots/modified-role-id-request.png)
 
-### Administrator Access
+### Admin Panel Access
 
-The modified request granted unauthorized access to the administrator panel.
+The modified request granted unauthorized access to the administration panel.
 
-![Admin Panel Access](screenshots/admin-panel-access.png)
-
-### Administrative Action
-
-The attacker was able to perform administrative actions, such as deleting the user `Carlos`.
-
-![Delete Carlos](screenshots/delete-carlos.png)
+![Admin Panel Access](screenshots/roleID-admin-panel-access.png)
 
 Screenshots showing:
 
