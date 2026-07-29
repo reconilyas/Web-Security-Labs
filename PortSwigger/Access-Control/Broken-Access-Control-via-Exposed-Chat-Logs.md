@@ -39,7 +39,7 @@ Carlos's chat log was exposed and contained sensitive information.
 
 The password was extracted from the exposed live chat log.
 
-![Exposed Password](screenshots/exposed-password-live-chat.png)
+![Exposed Password](screenshots/password-live-chat-log.png)
 
 ### Carlos Account Access
 
