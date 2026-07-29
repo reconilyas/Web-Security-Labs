@@ -29,12 +29,6 @@ The chat logs were accessible through a static URL without proper authorization 
 
 ![Chat Log Location](screenshots/chat-log-location.png)
 
-### Carlos Chat Log
-
-Carlos's chat log was exposed and contained sensitive information.
-
-![Carlos Chat Log](screenshots/carlos-chat-log.png)
-
 ### Password Exposure
 
 The password was extracted from the exposed live chat log.
