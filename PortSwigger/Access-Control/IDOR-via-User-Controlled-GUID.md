@@ -28,18 +28,23 @@ This may allow the attacker to view sensitive information, such as account crede
 
 ## Proof of Concept (PoC)
 
-### User ID / GUID
+### User GUID
 
-The user-controlled GUID allowed access to another user's data.
+Carlos's GUID was identified from the URL.
 
-![User ID GUID](screenshots/user-id-guid.png)
+![Carlos GUID](screenshots/carlos-guid.png)
 
 ### API Key Exposure
 
-The victim's API key was exposed after exploiting the IDOR vulnerability.
+Carlos's API key was exposed after accessing his account.
 
-![API Key Exposure](screenshots/api-key-exposure.png)
+![Exposed API Key](screenshots/exposed-api-key.png)
 
+Screenshots showing:
+
+1. Carlos's GUID in the URL.
+2. Unauthorized access to Carlos's account.
+3. The exposed API key.
 ## Vulnerability Classification
 
 - OWASP Top 10: A01 - Broken Access Control
