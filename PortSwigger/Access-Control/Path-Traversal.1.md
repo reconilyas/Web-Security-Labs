@@ -36,21 +36,21 @@ This may disclose system information, including usernames, user IDs, home direct
 
 ### Original Request
 
-The original request contains the user-controlled `filename` parameter.
+The original image request contains the user-controlled `filename` parameter.
 
-![Original Request](screenshots/original-request.png)
+![Original Request](screenshots/original-request-1.png)
 
-### Modified Request
+### Modified Filename Parameter
 
-The `filename` parameter was modified to access the `/etc/passwd` file.
+The `filename` parameter was modified using Path Traversal sequences to access files outside the intended directory.
 
-![Modified Request](screenshots/modified-request.png)
+![Modified Filename Parameter](screenshots/modified-filename-parameter-1.png)
 
 ### Sensitive File Disclosure
 
 The application returned the contents of the `/etc/passwd` file.
 
-![Passwd File Disclosure](screenshots/passwd-file.png)
+![Passwd File Disclosure](screenshots/passwd-file-disclosure-1.png)
 
 Screenshots showing:
 
