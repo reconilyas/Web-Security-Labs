@@ -20,14 +20,39 @@ This may allow the attacker to access administrative functionality and perform p
 4. Identify the user-controlled `roleID` parameter.
 5. Modify the `roleID` value to the administrator role ID.
 6. Forward the modified request.
-7. Access the administrator panel.
-8. Delete user Carlos.
+7. Verify that administrator privileges have been granted.
+8. Access the administrator panel.
+9. Delete the user `Carlos`.
 
 ## Proof of Concept (PoC)
+
+### Original Request
+
+The original request contained the user-controlled `roleID` parameter.
+
+![Original Request](screenshots/original-request.png)
+
+### Modified Request
+
+The `roleID` value was modified to the administrator role ID.
+
+![Modified Request](screenshots/modified-request.png)
+
+### Administrator Access
+
+The modified request granted unauthorized access to the administrator panel.
+
+![Admin Panel Access](screenshots/admin-panel-access.png)
+
+### Administrative Action
+
+The attacker was able to perform administrative actions, such as deleting the user `Carlos`.
+
+![Delete Carlos](screenshots/delete-carlos.png)
 
 Screenshots showing:
 
 1. The original request containing the `roleID` parameter.
 2. The modified request with the administrator role ID.
-3. Access to the administrator panel.
+3. Unauthorized access to the administrator panel.
 4. Successful execution of administrative actions.
