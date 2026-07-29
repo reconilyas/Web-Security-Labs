@@ -23,6 +23,30 @@ This may expose sensitive information, including user credentials, which could a
 
 ## Proof of Concept (PoC)
 
+### Exposed Chat Log URL
+
+The location of the chat logs was identified through the application.
+
+![Exposed Chat Log URL](screenshots/exposed-chat-log-url.png)
+
+### Carlos's Chat Log
+
+Carlos's chat log was accessible without proper authorization and contained sensitive information.
+
+![Carlos Chat Log](screenshots/carlos-chat-log.png)
+
+### Password Exposure
+
+The password was extracted from the exposed chat log.
+
+![Exposed Password](screenshots/exposed-password.png)
+
+### Successful Login
+
+The obtained credentials were used to successfully access Carlos's account.
+
+![Successful Login](screenshots/successful-login.png)
+
 Screenshots showing:
 
 1. The exposed chat log URL.
