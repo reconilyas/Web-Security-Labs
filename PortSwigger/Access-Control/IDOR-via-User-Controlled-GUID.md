@@ -28,41 +28,17 @@ This may allow the attacker to view sensitive information, such as account crede
 
 ## Proof of Concept (PoC)
 
-### Original Request
+### User ID / GUID
 
-The original request contains the user-controlled GUID parameter.
+The user-controlled GUID allowed access to another user's data.
 
-![Original Request](screenshots/original-request.png)
+![User ID GUID](screenshots/user-id-guid.png)
 
-### Modified Request
+### API Key Exposure
 
-The GUID was replaced with the administrator's GUID.
+The victim's API key was exposed after exploiting the IDOR vulnerability.
 
-![Modified Request](screenshots/modified-request.png)
-
-### Unauthorized Account Access
-
-The modified request allowed unauthorized access to the administrator account.
-
-![Administrator Account Access](screenshots/admin-account-access.png)
-
-### Password Exposure
-
-The administrator's password was exposed by changing the password field type from `password` to `text`.
-
-![Exposed Password](screenshots/exposed-password.png)
-
-### Admin Panel Access
-
-The administrator credentials were used to access the admin panel.
-
-![Admin Panel Access](screenshots/admin-panel-access.png)
-
-### Delete User
-
-The user `carlos` was successfully deleted.
-
-![Delete Carlos](screenshots/delete-carlos.png)
+![API Key Exposure](screenshots/api-key-exposure.png)
 
 ## Vulnerability Classification
 
