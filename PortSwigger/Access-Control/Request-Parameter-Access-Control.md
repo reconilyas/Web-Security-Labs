@@ -25,6 +25,12 @@ This may allow the attacker to perform privileged actions, such as viewing sensi
 
 ## Proof of Concept (PoC)
 
+### Original Request
+
+The `admin` parameter was `false`.
+
+![Modified Request](screenshots/original-request.png)
+
 ### Modified Request
 
 The `admin` parameter was modified from `false` to `true`.
