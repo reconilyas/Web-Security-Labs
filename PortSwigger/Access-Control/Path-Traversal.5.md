@@ -14,7 +14,7 @@ By manipulating the `filename` parameter with directory traversal sequences, an 
 
 An attacker can access unauthorized files from the server's filesystem.
 
-Successful exploitation allows reading sensitive system files, which may expose information such as usernames, user IDs, home directories, and login shells.
+Successful exploitation allows an attacker to read sensitive system files, which may expose information such as usernames, user IDs, home directories, and login shells.
 
 This information can assist attackers during reconnaissance and further attack planning.
 
@@ -38,8 +38,27 @@ This information can assist attackers during reconnaissance and further attack p
 ---
 
 ## Proof of Concept (PoC)
+
+### Original Request
+
+The original image request contains the user-controlled `filename` parameter.
+
+![Original Request](screenshots/original-request.png)
+
+### Modified Request
+
+The `filename` parameter was modified with directory traversal sequences to bypass the path validation.
+
+![Modified Request](screenshots/modified-request.png)
+
+### Sensitive File Disclosure
+
+The application returned the contents of the `/etc/passwd` file.
+
+![Passwd File Disclosure](screenshots/passwd-file.png)
+
 Screenshots showing:
 
 1. The intercepted request.
-2. The modified `filename` parameter.
+2. The modified `filename` parameter containing the Path Traversal payload.
 3. The contents of the `/etc/passwd` file.
