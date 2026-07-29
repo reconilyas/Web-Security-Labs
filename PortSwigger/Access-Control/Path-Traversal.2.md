@@ -14,7 +14,7 @@ An attacker can use directory traversal sequences to retrieve sensitive files, s
 
 An attacker can access unauthorized files from the server's filesystem.
 
-Successful exploitation allows reading sensitive system files, which may expose information such as usernames, user IDs, home directories, and login shells.
+Successful exploitation allows an attacker to read sensitive system files, which may expose information such as usernames, user IDs, home directories, and login shells.
 
 This information can be useful during reconnaissance and further attack planning.
 
@@ -26,17 +26,36 @@ This information can be useful during reconnaissance and further attack planning
 2. Open a product page containing an image.
 3. Intercept the image request using Burp Suite.
 4. Locate the `filename` parameter.
-5. Modify the parameter value:
+5. Modify the parameter value to:
 
 ```text
 ../../../etc/passwd
 ```
 
-6. Forward the request
-7. Observe that the server returns the contents of the /etc/passwd file
+6. Forward the modified request.
+7. Observe that the server returns the contents of the `/etc/passwd` file.
+
 ---
 
 ## Proof of Concept (PoC)
+
+### Original Request
+
+The original image request contains the user-controlled `filename` parameter.
+
+![Original Request](screenshots/original-request.png)
+
+### Modified Request
+
+The `filename` parameter was modified using directory traversal sequences.
+
+![Modified Request](screenshots/modified-request.png)
+
+### Sensitive File Disclosure
+
+The server returned the contents of the `/etc/passwd` file.
+
+![Passwd File Disclosure](screenshots/passwd-file.png)
 
 Screenshots showing:
 
