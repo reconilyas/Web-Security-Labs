@@ -34,7 +34,7 @@ The application exposed a publicly accessible backup directory containing sensit
 
 A backup file was successfully accessed, exposing sensitive application data.
 
-![Backup File Disclosure](screenshots/backup-file-disclosure.png)
+![Backup File Disclosure](screenshots/repository-files.png)
 
 Screenshots showing:
 
