@@ -33,12 +33,6 @@ Apache Struts 2.3.31
 
 ## Proof of Concept (PoC)
 
-### Error Message
-
-The application returned a detailed error message containing internal information.
-
-![Error Message](screenshots/error-message.png)
-
 ### Version Disclosure
 
 The error message disclosed the Apache Struts framework version used by the application.
