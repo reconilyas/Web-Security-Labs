@@ -52,12 +52,23 @@ The exposed version control repository contained the application's source code a
 
 ![Repository Files](screenshots/repository-files.png)
 
+### Source Code Disclosure
+
+The repository exposed source code containing sensitive information.
+
+![Source Code Disclosure](screenshots/code-disclosure.png)
+
 ### Removed Password Disclosure
 
 The version control history revealed a previously removed password that remained accessible through the repository's commit history.
 
 ![Removed Password](screenshots/removed-password.png)
 
+### Admin Panel Access
+
+The disclosed administrator credentials were successfully used to access the administration panel.
+
+![Admin Panel Access](screenshots/admin-panel.png)
 
 Screenshots showing:
 
