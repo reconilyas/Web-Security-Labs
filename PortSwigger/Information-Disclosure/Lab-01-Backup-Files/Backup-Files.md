@@ -26,15 +26,15 @@ Additionally, leaked source code and configuration details can help attackers un
 
 ### Backup Directory
 
-The application exposed a publicly accessible backup directory containing sensitive files.
+A publicly accessible backup directory was identified during testing.
 
 ![Backup Directory](screenshots/backup-directory.png)
 
-### Backup File Disclosure
+### Backup Files
 
-A backup file was successfully accessed, exposing sensitive application data.
+The backup directory contained sensitive application files that could be accessed without authorization.
 
-![Backup File Disclosure](screenshots/repository-files.png)
+![Backup Files](screenshots/repository-files.png)
 
 Screenshots showing:
 
