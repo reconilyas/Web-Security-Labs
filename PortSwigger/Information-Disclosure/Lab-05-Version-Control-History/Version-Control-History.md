@@ -44,13 +44,13 @@ ADMIN_PASSWORD=[REDACTED]
 
 7. Verify that the sensitive credential was removed only from the current version but remains available in Git history.
 
-![Repository Files](screenshots/repository-files.png)
+![Repository Files](./screenshots/repository-files.png)
 
-![Source Code Disclosure](screenshots/code-disclosure.png)
+![Source Code Disclosure](./screenshots/code-disclosure.png)
 
-![Administrator Password](screenshots/admin-password.png)
+![Administrator Password](./screenshots/admin-password.png)
 
-![Admin Panel Access](screenshots/admin-panel.png)
+![Admin Panel Access](./screenshots/admin-panel.png)
 
 ## Remediation
 
