@@ -32,7 +32,7 @@ This may allow the attacker to view sensitive information, such as account crede
 
 The administrator user ID was exposed through the application.
 
-![Administrator ID](screenshots/administrator-id.png)
+![Administrator ID](screenshots/privileged-user-id.png)
 
 ### Password Field Modification
 
