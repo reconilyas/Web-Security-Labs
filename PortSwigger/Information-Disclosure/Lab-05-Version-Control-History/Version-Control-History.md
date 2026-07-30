@@ -43,14 +43,39 @@ ADMIN_PASSWORD=[REDACTED]
 
 
 7. Verify that the sensitive credential was removed only from the current version but remains available in Git history.
+8. 
+## Proof of Concept (PoC)
 
-![Repository Files](./screenshots/repository-files.png)
+### Repository Files
 
-![Source Code Disclosure](./screenshots/code-disclosure.png)
+The exposed version control repository contained the application's source code and project files.
 
-![Administrator Password](./screenshots/admin-password.png)
+![Repository Files](screenshots/repository-files.png)
 
-![Admin Panel Access](./screenshots/admin-panel.png)
+### Source Code Disclosure
+
+The repository exposed source code containing sensitive information.
+
+![Source Code Disclosure](screenshots/code-disclosure.png)
+
+### Administrator Password Disclosure
+
+The version control history revealed the administrator's password, which remained accessible through the repository.
+
+![Administrator Password](screenshots/admin-password.png)
+
+### Admin Panel Access
+
+The disclosed administrator credentials were successfully used to access the administration panel.
+
+![Admin Panel Access](screenshots/admin-panel.png)
+
+### Screenshots showing:
+
+1. The exposed `.git` repository.
+2. The recovered repository files.
+3. The Git history showing the old commit.
+4. The previous commit containing the exposed administrator password.
 
 ## Remediation
 
