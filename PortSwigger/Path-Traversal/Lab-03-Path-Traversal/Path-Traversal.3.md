@@ -41,21 +41,21 @@ This information can assist attackers during reconnaissance and further attack p
 
 ### Original Request
 
-The original request before modification.
+The original image request contained the user-controlled `filename` parameter.
 
-![Original Request](screenshots/original-request-4.png)
+![Original Request](screenshots/original-request-3.png)
 
 ### Modified Request
 
-The request after applying the required modification.
+The `filename` parameter was modified using a crafted Path Traversal payload to bypass the application's protection.
 
-![Modified Request](screenshots/modified-request-4.png)
+![Modified Request](screenshots/modified-request-3.png)
 
 ### Exploitation Result
 
-The successful result after exploiting the vulnerability.
+The application returned the contents of the `/etc/passwd` file after successful exploitation.
 
-![Exploitation Result](screenshots/exploitation-result-4.png)
+![Exploitation Result](screenshots/exploitation-result-3.png)
 
 Screenshots showing:
 
