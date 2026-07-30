@@ -58,17 +58,18 @@ The repository exposed source code containing sensitive information.
 
 ![Source Code Disclosure](screenshots/code-disclosure.png)
 
-### Removed Password Disclosure
+### Administrator Password Disclosure
 
-The version control history revealed a previously removed password that remained accessible through the repository's commit history.
+The version control history revealed the administrator's password, which remained accessible through the repository.
 
-![Removed Password](screenshots/removed-password.png)
+![Administrator Password](screenshots/admin-password.png)
 
 ### Admin Panel Access
 
 The disclosed administrator credentials were successfully used to access the administration panel.
 
 ![Admin Panel Access](screenshots/admin-panel.png)
+
 
 Screenshots showing:
 
