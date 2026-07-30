@@ -29,19 +29,13 @@ This may allow the attacker to access sensitive information, such as the victim'
 
 Carlos's GUID was identified in the URL.
 
-![Carlos GUID](screenshots/carlos-guid.png)
-
-### Unauthorized Account Access
-
-By replacing the GUID parameter, unauthorized access to Carlos's account was obtained.
-
-![Carlos Account Access](screenshots/carlos-account-access.png)
+![Carlos GUID](screenshots/user-id.png)
 
 ### API Key Exposure
 
 The victim's API key was exposed after accessing Carlos's account.
 
-![Exposed API Key](screenshots/exposed-api-key.png)
+![Exposed API Key](screenshots/api-key.png)
 
 Screenshots showing:
 
