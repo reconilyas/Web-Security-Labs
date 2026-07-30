@@ -30,18 +30,6 @@ Additionally, exposed configuration information can help attackers understand th
 
 ## Proof of Concept (PoC)
 
-### Burp Suite Request
-
-The request was intercepted using Burp Suite to analyze the application's behavior.
-
-![Burp Suite Request](screenshots/burp-suite-request.png)
-
-### Admin Endpoint Disclosure
-
-The debug page disclosed the hidden `/admin` endpoint.
-
-![Admin Endpoint Disclosure](screenshots/admin-endpoint-disclosure.png)
-
 ### Unauthorized Response
 
 Attempting to access the exposed endpoint without proper authorization resulted in an unauthorized response.
