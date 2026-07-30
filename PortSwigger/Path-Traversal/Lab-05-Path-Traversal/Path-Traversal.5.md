@@ -41,21 +41,21 @@ This information can assist attackers during reconnaissance and further attack p
 
 ### Original Request
 
-The original image request contains the user-controlled `filename` parameter.
+The original image request contained the user-controlled `filename` parameter.
 
-![Original Request](screenshots/original-request.png)
+![Original Request](screenshots/original-request-5.png)
 
 ### Modified Request
 
-The `filename` parameter was modified with directory traversal sequences to bypass the path validation.
+The request was modified using the Path Traversal payload to bypass the application's restrictions.
 
-![Modified Request](screenshots/modified-request.png)
+![Modified Request](screenshots/modified-request-5.png)
 
-### Sensitive File Disclosure
+### Exploitation Result
 
-The application returned the contents of the `/etc/passwd` file.
+The application returned the contents of the targeted file after successful exploitation.
 
-![Passwd File Disclosure](screenshots/passwd-file.png)
+![Exploitation Result](screenshots/exploitation-result-5.png)
 
 Screenshots showing:
 
