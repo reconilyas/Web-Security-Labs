@@ -23,15 +23,18 @@ Additionally, leaked source code and configuration details can help attackers un
 7. Identify the hard-coded database credentials.
 
 ## Proof of Concept (PoC)
-### Exposed Backup Directory
+
+### Backup Directory
+
+The application exposed a publicly accessible backup directory containing sensitive files.
 
 ![Backup Directory](screenshots/backup-directory.png)
 
-### Leaked Source Code
+### Backup File Disclosure
 
-![Code Disclosure](screenshots/code-disclosure.png)
+A backup file was successfully accessed, exposing sensitive application data.
 
-The screenshot has been redacted to hide sensitive information.
+![Backup File Disclosure](screenshots/backup-file-disclosure.png)
 
 Screenshots showing:
 
