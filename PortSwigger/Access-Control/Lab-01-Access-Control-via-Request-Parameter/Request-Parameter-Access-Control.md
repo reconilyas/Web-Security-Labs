@@ -29,7 +29,7 @@ This may allow the attacker to perform privileged actions, such as viewing sensi
 
 The original request contained the `admin=false` parameter.
 
-![Original Request](screenshots/original-request.pn)
+![Original Request](screenshots/original-request.png)
 
 ### Modified Request
 
