@@ -28,12 +28,6 @@ This may allow the attacker to view sensitive information, such as account crede
 
 ## Proof of Concept (PoC)
 
-### Administrator GUID Identification
-
-The administrator's GUID was identified and used to access unauthorized user data.
-
-![Administrator GUID](screenshots/user-id-guid.png)
-
 ### Administrator ID Disclosure
 
 The administrator user ID was exposed through the application.
