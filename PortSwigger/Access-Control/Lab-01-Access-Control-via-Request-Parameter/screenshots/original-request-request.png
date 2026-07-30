@@ -1,2 +1,354 @@
+Skip to content <#start-of-content>
 
+Open menu
+
+<https://github.com/>Homepage (g then d)gGthen dD
+
+ 1. reconilyas <https://github.com/reconilyas>
+ 2. Web-Security-Labs <https://github.com/reconilyas/Web-Security-Labs>
+
+    Switch repository(alt shift r)altAlt shift⇧ rR
+
+Type / to search
+
+Open quick search dialog, type / to search(forward slash)forward slash/
+
+<https://github.com/copilot>Chat with Copilot
+
+Create new...
+
+<https://github.com/issues>All issues
+
+<https://github.com/pulls>All pull requests
+
+<https://github.com/repos>All repositories
+
+<https://github.com/notifications>You have no unread notifications(g
+then n)gGthen nN
+ilyas
+
+Open user navigation menu
+
+
+    Repository navigation
+
+  *
+  *
+
+    Code <https://github.com/reconilyas/Web-Security-Labs>
+  *
+
+    Issues <https://github.com/reconilyas/Web-Security-Labs/issues>
+  *
+
+    Pull requests <https://github.com/reconilyas/Web-Security-Labs/pulls>
+  *
+
+    Agents <https://github.com/reconilyas/Web-Security-Labs/agents?
+    author=reconilyas>
+  *
+
+    Actions <https://github.com/reconilyas/Web-Security-Labs/actions>
+  *
+
+    Projects <https://github.com/reconilyas/Web-Security-Labs/projects>
+  *
+
+    Wiki <https://github.com/reconilyas/Web-Security-Labs/wiki>
+  *
+
+    Security and quality <https://github.com/reconilyas/Web-Security-
+    Labs/security>
+  *
+
+    Insights <https://github.com/reconilyas/Web-Security-Labs/pulse>
+  *
+
+    Settings <https://github.com/reconilyas/Web-Security-Labs/settings>
+
+Moreitems
+
+You signed in with another tab or window. Reload to refresh your
+session. You signed out in another tab or window. Reload to refresh your
+session. You switched accounts on another tab or window. Reload to
+refresh your session.
+
+Dismiss alert
+
+
+      Uh oh!
+
+There was an error while loading. Please reload this page.
+
+{{ message }}
+
+Open in github.dev <https://github.dev/> Open in a new github.dev tab
+<https://github.dev/> Open in codespace <https://github.com/codespaces/
+new/reconilyas/Web-Security-Labs/tree/main?resume=1>
+<https://github.com/reconilyas/Web-Security-Labs>
+
+
+    Collapse file tree
+
+
+    Files
+
+main
+
+<https://github.com/reconilyas/Web-Security-Labs/new/main/PortSwigger/
+Access-Control/screenshots>Add file
+
+Search this repository(forward slash)forward slash/
+tT
+screenshots content loaded
+
+  *
+
+    PortSwigger
+      o
+
+        Access-Control
+          +
+
+            Lab-01-Access-Control-via-Request-Parameter
+          +
+
+            Lab-02-Broken-Access-Control-via-User-Controlled-GUID
+          +
+
+            Lab-03-IDOR-via-User-Controlled-GUID
+          +
+
+            Lab-04-Broken-Access-Control-via-Exposed-Chat-Logs
+          +
+
+            Lab-05-Broken-Access-Control-via-Role-ID-Manipulation
+          +
+
+            screenshots
+              #
+
+                modified-request-3.png
+              #
+
+                original-request-5.png
+              #
+
+                admin-panel-access.png
+              #
+
+                admin-panel.png
+              #
+
+                api-key-exposure.png
+              #
+
+                carlos-account-access.png
+              #
+
+                carlos-guid.png
+              #
+
+                chat-log-location.png
+              #
+
+                delete-user.png
+              #
+
+                exploitation-result-2.png
+              #
+
+                exploitation-result-3.png
+              #
+
+                exploitation-result-4.png
+              #
+
+                exploitation-result-5.png
+              #
+
+                exploitation-result-6.png
+              #
+
+                exposed-password.png
+              #
+
+                modified-filename-parameter-1.png
+              #
+
+                modified-request-2.png
+              #
+
+                modified-request-4.png
+              #
+
+                modified-request-5.png
+              #
+
+                modified-request-6.png
+              #
+
+                modified-request.png
+              #
+
+                modified-role-id-request.png
+              #
+
+                original-request-1.png
+              #
+
+                original-request-2.png
+              #
+
+                original-request-3.png
+              #
+
+                original-request-4.png
+              #
+
+                original-request-6.png
+              #
+
+                original-request-request.png
+              #
+
+                original-role-id-request.png
+              #
+
+                passwd-file-disclosure-1.png
+              #
+
+                password-field-text.png
+              #
+
+                password-live-chat-log.png
+              #
+
+                roleID-admin-panel-access.png
+              #
+
+                user-id-guid.png
+          +
+
+            README.md
+      o
+
+        Information-Disclosure
+      o
+
+        Path-Traversal
+  *
+
+    README.md
+
+
+    Breadcrumbs
+
+ 1. Web-Security-Labs <https://github.com/reconilyas/Web-Security-Labs/
+    tree/main>
+ 2. /PortSwigger <https://github.com/reconilyas/Web-Security-Labs/tree/
+    main/PortSwigger>
+ 3. /Access-Control <https://github.com/reconilyas/Web-Security-Labs/
+    tree/main/PortSwigger/Access-Control>
+ 4. /screenshots <https://github.com/reconilyas/Web-Security-Labs/tree/
+    main/PortSwigger/Access-Control/screenshots>
+
+/
+
+
+original-request-request.png
+
+Copy path
+
+More file actions
+
+More file actions
+
+
+    Latest commit
+
+reconilyas <https://github.com/reconilyas>reconilyas <https://
+github.com/reconilyas/Web-Security-Labs/commits?author=reconilyas>
+Rename original-request.png to original-request-request.png <https://
+github.com/reconilyas/Web-Security-Labs/
+commit/6b3533b6815c282f6094e643bbcd423167ef002a>
+Jul 30, 2026
+6b3533b <https://github.com/reconilyas/Web-Security-Labs/
+commit/6b3533b6815c282f6094e643bbcd423167ef002a> · 
+Jul 30, 2026
+
+
+    History
+
+History <https://github.com/reconilyas/Web-Security-Labs/commits/main/
+PortSwigger/Access-Control/screenshots/original-request-request.png>
+
+Open commit details
+
+<https://github.com/reconilyas/Web-Security-Labs/commits/main/
+PortSwigger/Access-Control/screenshots/original-request-request.png>History
+27.3 KB
+
+
+    Breadcrumbs
+
+ 1. Web-Security-Labs <https://github.com/reconilyas/Web-Security-Labs/
+    tree/main>
+ 2. /PortSwigger <https://github.com/reconilyas/Web-Security-Labs/tree/
+    main/PortSwigger>
+ 3. /Access-Control <https://github.com/reconilyas/Web-Security-Labs/
+    tree/main/PortSwigger/Access-Control>
+ 4. /screenshots <https://github.com/reconilyas/Web-Security-Labs/tree/
+    main/PortSwigger/Access-Control/screenshots>
+
+/
+
+
+original-request-request.png
+
+Copy path
+
+Top
+
+
+    File metadata and controls
+
+27.3 KB
+
+Ask Copilot about this file
+
+Download raw file
+
+<https://github.com/reconilyas/Web-Security-Labs/edit/main/PortSwigger/
+Access-Control/screenshots/original-request-request.png>Edit this file
+
+More edit options
+
+Edit and raw actions
+original-request-request.png
+
+
+    Footer
+
+<https://github.com/> © 2026 GitHub, Inc.
+
+
+      Footer navigation
+
+  * Terms <https://docs.github.com/site-policy/github-terms/github-
+    terms-of-service>
+  * Privacy <https://docs.github.com/site-policy/privacy-policies/
+    github-privacy-statement>
+  * Security <https://github.com/security>
+  * Status <https://www.githubstatus.com/>
+  * Community <https://github.community/>
+  * Docs <https://docs.github.com/>
+  * Contact <https://support.github.com/?tags=dotcom-footer>
+  *
+    Manage cookies
+
+  *
+    Do not share my personal information
+
+You can’t perform that action at this time.
 
