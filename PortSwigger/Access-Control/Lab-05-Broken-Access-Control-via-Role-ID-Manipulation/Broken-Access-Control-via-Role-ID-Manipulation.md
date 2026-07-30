@@ -38,12 +38,6 @@ The `roleID` parameter was modified to the administrator role value.
 
 ![Modified Role ID Request](screenshots/modified-role-id-request.png)
 
-### Admin Panel Access
-
-The modified request granted unauthorized access to the administration panel.
-
-![Admin Panel Access](screenshots/roleID-admin-panel-access.png)
-
 Screenshots showing:
 
 1. The original request containing the `roleID` parameter.
