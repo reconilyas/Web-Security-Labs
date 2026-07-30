@@ -39,6 +39,24 @@ This information can assist attackers during reconnaissance and further attack p
 
 ## Proof of Concept (PoC)
 
+### Original Request
+
+The original image request contained the user-controlled `filename` parameter.
+
+![Original Request](screenshots/original-request-4.png)
+
+### Modified Filename Parameter
+
+The `filename` parameter was modified using a null byte injection payload to bypass the file extension validation.
+
+![Modified Filename Parameter](screenshots/modified-filename-parameter-4.png)
+
+### Sensitive File Disclosure
+
+The application returned the contents of the `/etc/passwd` file after successful exploitation.
+
+![Passwd File Disclosure](screenshots/passwd-file-disclosure-4.png)
+
 Screenshots showing:
 
 1. The intercepted request.
