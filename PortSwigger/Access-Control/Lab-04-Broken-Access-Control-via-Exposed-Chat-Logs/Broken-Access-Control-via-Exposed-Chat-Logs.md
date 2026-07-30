@@ -23,23 +23,24 @@ This may expose sensitive information, including user credentials, which could a
 
 ## Proof of Concept (PoC)
 
-### Chat Log Location
+### Live Chat Log Access
 
-The chat logs were accessible through a static URL without proper authorization checks.
+The attacker accessed the live chat logs containing sensitive information.
 
-![Chat Log Location](screenshots/chat-log-location.png)
+![Chat Log Access](screenshots/chat-log-access.png)
 
-### Password Exposure
+### Exposed Password in Live Chat
 
-The password was extracted from the exposed live chat log.
+A user's password was exposed through the live chat history.
 
-![Exposed Password](screenshots/password-live-chat-log.png)
+![Exposed Password](screenshots/exposed-password-live-chat.png)
 
 ### Carlos Account Access
 
-The extracted password was used to successfully log in to Carlos's account.
+The exposed credentials were used to access Carlos's account.
 
-![Carlos Account Access](screenshots/carlos-account-access.png)
+![Carlos Account](screenshots/carlos-account.png)
+
 Screenshots showing:
 
 1. The exposed chat log URL.
