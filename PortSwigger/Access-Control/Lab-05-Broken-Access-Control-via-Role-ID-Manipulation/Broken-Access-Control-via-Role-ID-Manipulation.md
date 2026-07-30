@@ -28,13 +28,13 @@ This may allow the attacker to access administrative functionality and perform p
 
 ### Original Role ID Request
 
-The original request contained the user-controlled `roleID` parameter.
+The original request contained the default user `roleid` value.
 
 ![Original Role ID Request](screenshots/original-role-id-request.png)
 
 ### Modified Role ID Request
 
-The `roleID` parameter was modified to the administrator role value.
+The `roleid` parameter was modified to obtain unauthorized administrative privileges.
 
 ![Modified Role ID Request](screenshots/modified-role-id-request.png)
 
