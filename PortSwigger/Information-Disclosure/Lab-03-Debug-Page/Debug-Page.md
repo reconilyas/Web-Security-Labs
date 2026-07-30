@@ -29,15 +29,25 @@ Additionally, exposed configuration information can help attackers understand th
 6. Locate the exposed `SECRET_KEY`.
 
 ## Proof of Concept (PoC)
-![Debug Page Information Disclosure](screenshots/debug-page-redacted.png)
 
-The screenshot has been redacted to hide sensitive information.
+### Burp Suite Request
 
-Screenshots showing:
+The request was intercepted using Burp Suite to analyze the application's behavior.
 
-1. Feroxbuster discovering the debug endpoint.
-2. The accessible debug page.
-3. The exposed `SECRET_KEY` value.
+![Burp Suite Request](screenshots/burp-suite-request.png)
+
+### Admin Endpoint Disclosure
+
+The debug page disclosed the hidden `/admin` endpoint.
+
+![Admin Endpoint Disclosure](screenshots/admin-endpoint-disclosure.png)
+
+### Unauthorized Response
+
+Attempting to access the exposed endpoint without proper authorization resulted in an unauthorized response.
+
+![Unauthorized Response](screenshots/unauthorized-response.png)
+
 
 ## Remediation
 
