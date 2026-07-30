@@ -27,9 +27,9 @@ This may allow the attacker to perform privileged actions, such as viewing sensi
 
 ### Original Request
 
-The `admin` parameter was `false`.
+The original request contained the `admin=false` parameter.
 
-![Modified Request](screenshots/original-request-request.png)
+![Original Request](screenshots/original-request.png)
 
 ### Modified Request
 
@@ -39,13 +39,13 @@ The `admin` parameter was modified from `false` to `true`.
 
 ### Administration Panel
 
-The modified request granted access to the administration panel.
+The modified request granted unauthorized access to the administration panel.
 
 ![Administration Panel](screenshots/admin-panel.png)
 
 ### Delete User
 
-The user `carlos` was successfully deleted.
+The user `carlos` was successfully deleted after gaining administrative access.
 
 ![Delete User](screenshots/delete-user.png)
 
