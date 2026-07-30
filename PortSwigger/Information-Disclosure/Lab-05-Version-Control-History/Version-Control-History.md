@@ -70,13 +70,13 @@ The disclosed administrator credentials were successfully used to access the adm
 
 ![Admin Panel Access](screenshots/admin-panel.png)
 
-
-Screenshots showing:
+### Screenshots showing:
 
 1. The exposed `.git` repository.
 2. The recovered repository files.
 3. The Git history showing the old commit.
 4. The previous commit containing the exposed administrator password.
+
 
 ## Remediation
 
