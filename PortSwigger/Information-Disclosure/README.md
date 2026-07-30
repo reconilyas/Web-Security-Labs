@@ -1,71 +1,105 @@
-# Information Disclosure
+# Information Disclosure Labs
 
-## Overview
+A collection of my practical **Information Disclosure vulnerability** write-ups from **PortSwigger Web Security Academy**.
 
-Information Disclosure is a web security vulnerability where an application unintentionally reveals sensitive or useful information to unauthorized users.
+This directory contains hands-on labs focused on identifying and exploiting situations where an application unintentionally reveals sensitive information. Information disclosure can expose user data, application details, source code, credentials, or technical information that may help attackers perform further attacks.
 
-The disclosed information may not always lead to an immediate compromise, but it can help attackers understand the application's internal structure, identify weaknesses, and perform further attacks.
+## About Information Disclosure
 
-## Common Examples
+Information Disclosure occurs when a web application reveals information that should not be accessible to users.
 
-- Exposed Git repositories (`.git`)
-- Backup files
-- Configuration files
-- Source code exposure
-- Debug information
-- Error messages revealing sensitive details
-- Directory listing
-- API keys and secrets
-- User credentials
-- Server and software version information
+Examples include:
 
-## Impact
+* Exposed backup files
+* Debug information leakage
+* Detailed error messages
+* Source code exposure
+* Version control history exposure
+* Sensitive credentials disclosure
 
-Successful exploitation of Information Disclosure vulnerabilities may allow attackers to:
+## Completed Labs
 
-- Access sensitive information
-- Discover internal application details
-- Obtain credentials or secrets
-- Understand the application's architecture
-- Identify additional attack vectors
-- Perform further attacks
+### Backup Files
 
-## Prevention
+* Discovering publicly accessible backup files.
+* Analyzing exposed application files and sensitive data.
 
-To prevent Information Disclosure vulnerabilities:
+### Custom HTTP Header Authentication Bypass
 
-- Remove sensitive files before deployment.
-- Restrict access to sensitive directories such as `.git`.
-- Disable unnecessary debug information in production.
-- Configure proper error handling.
-- Avoid exposing backup files.
-- Protect sensitive data and credentials.
-- Regularly review application configurations.
+* Testing authentication mechanisms based on HTTP headers.
+* Identifying insecure trust in client-controlled headers.
 
-## Labs Completed
+### Debug Page
 
-This directory contains my Information Disclosure lab reports and write-ups.
+* Finding exposed debugging information.
+* Identifying hidden endpoints and sensitive application details.
 
-Each lab includes:
+### Error Messages
 
-- Vulnerability Summary
-- Impact Analysis
-- Steps to Reproduce
-- Proof of Concept (PoC)
-- Screenshots
-- Remediation
+* Analyzing verbose error messages.
+* Extracting useful technical information from application responses.
+
+### Version Control History
+
+* Discovering exposed version control files.
+* Recovering sensitive information from repository history.
+
+## Skills Practiced
+
+* Information Leakage Identification
+* HTTP Response Analysis
+* Burp Suite
+* Source Code Analysis
+* Sensitive Data Discovery
+* Web Application Testing
+* Security Reporting
 
 ## Tools Used
 
-- Burp Suite
-- Feroxbuster
-- Git
-- git-dumper
+* Burp Suite
+* Browser Developer Tools
+* Git & GitHub
+* Linux Terminal
 
-## References
+## Repository Structure
 
-- PortSwigger Web Security Academy - Information Disclosure  
-  https://portswigger.net/web-security/information-disclosure
+```text
+Information-Disclosure/
+│
+├── Lab-01-Backup-Files/
+│   ├── Backup-Files.md
+│   └── screenshots/
+│
+├── Lab-02-Custom-HTTP-Header-Authentication-Bypass/
+│   ├── Custom-HTTP-Header-Authentication-Bypass.md
+│   └── screenshots/
+│
+├── Lab-03-Debug-Page/
+│   ├── Debug-Page.md
+│   └── screenshots/
+│
+├── Lab-04-Error-Messages/
+│   ├── Error-Messages.md
+│   └── screenshots/
+│
+└── Lab-05-Version-Control-History/
+    ├── Version-Control-History.md
+    └── screenshots/
+```
 
-- OWASP Web Security Testing Guide  
-  https://owasp.org/www-project-web-security-testing-guide/
+## Methodology
+
+For each lab:
+
+1. Analyze the application behavior.
+2. Identify the information disclosure source.
+3. Capture and analyze HTTP requests and responses.
+4. Extract the exposed information.
+5. Document the vulnerability with a technical report and screenshots.
+
+## Disclaimer
+
+All testing was performed in authorized educational environments provided by PortSwigger Web Security Academy.
+
+This repository is created for learning, practice, and demonstrating web security skills.
+
