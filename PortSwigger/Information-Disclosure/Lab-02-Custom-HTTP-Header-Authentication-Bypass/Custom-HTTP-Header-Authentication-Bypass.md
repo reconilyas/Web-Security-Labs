@@ -48,19 +48,19 @@ Password: peter
 11. Verify that the user `carlos` has been successfully deleted.
 
 ## Proof of Concept (PoC)
+
 ### Unauthorized Response
 
-The original request was denied because the required custom HTTP header was not included.
+The initial request without the required custom HTTP header was denied.
 
 ![Unauthorized Response](screenshots/unauthorized-response.png)
 
-### Admin Panel Access
+### Admin Access
+
+After adding the required custom HTTP header, the application granted unauthorized access to the administrator functionality.
 
 ![Admin Access](screenshots/admin-access.png)
 
-### Delete User Action
-
-![Delete User](screenshots/delete-user.png)
 
 Screenshots showing:
 
