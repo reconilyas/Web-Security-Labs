@@ -28,11 +28,17 @@ This may allow the attacker to view sensitive information, such as account crede
 
 ## Proof of Concept (PoC)
 
-### User ID / GUID
+### Administrator GUID Identification
 
-The administrator's GUID was identified and used to access another user's data.
+The administrator's GUID was identified and used to access unauthorized user data.
 
-![User ID GUID](screenshots/user-id-guid.png)
+![Administrator GUID](screenshots/user-id-guid.png)
+
+### Administrator ID Disclosure
+
+The administrator user ID was exposed through the application.
+
+![Administrator ID](screenshots/administrator-id.png)
 
 ### Password Field Modification
 
@@ -42,15 +48,16 @@ The password field type was changed from `password` to `text` using Browser DevT
 
 ### Exposed Password
 
-The administrator's password was revealed after modifying the password field.
+The administrator's password was revealed after modifying the password field type.
 
 ![Exposed Password](screenshots/exposed-password.png)
 
 ### Admin Panel Access
 
-The administrator credentials were used to access the admin panel.
+The administrator credentials were used to successfully access the admin panel.
 
 ![Admin Panel](screenshots/admin-panel.png)
+
 Screenshots showing:
 
 1. Carlos's GUID in the URL.
