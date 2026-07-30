@@ -33,12 +33,18 @@ Apache Struts 2.3.31
 
 ## Proof of Concept (PoC)
 
+### Error Message
+
+The application returned a detailed error message containing internal information.
+
+![Error Message](screenshots/error-message.png)
+
+### Version Disclosure
+
+The error message disclosed the Apache Struts framework version used by the application.
+
 ![Apache Struts Version](screenshots/apache-struts-version.png)
 
-Screenshots showing:
-
-1. The modified request in Burp Suite.
-2. The server response containing the disclosed framework version.
 
 ## Remediation
 
