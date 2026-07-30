@@ -34,7 +34,7 @@ A publicly accessible backup directory was identified during testing.
 
 The backup directory contained sensitive application files that could be accessed without authorization.
 
-![Backup Files](screenshots/repository-files.png)
+![Backup Files](screenshots/sensitive-information.png)
 
 Screenshots showing:
 
