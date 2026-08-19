@@ -36,17 +36,18 @@ Gifts' OR '1'='1'-- -
 
 ## Proof of Concept
 
-### `01-original-request.png`
+### `LAB1.01-original-request.png`
 
-![Original Request](screenshots/01-original-request.png)
+![Original Request](screenshots/LAB1.01-original-request.png)
 
-### `02-sqli-payload.png`
+### `LAB1.02-sqli-payload.png`
 
-![SQL Injection Payload](screenshots/02-sqli-payload.png)
+![SQL Injection Payload](screenshots/LAB1.02-sqli-payload.png)
 
-### `03-hidden-data.png`
+### `LAB1.03-hidden-data.png`
 
-![Hidden Data](screenshots/03-hidden-data.png)
+![Hidden Data](screenshots/LAB1.03-hidden-data.png)
+
 
 
 
