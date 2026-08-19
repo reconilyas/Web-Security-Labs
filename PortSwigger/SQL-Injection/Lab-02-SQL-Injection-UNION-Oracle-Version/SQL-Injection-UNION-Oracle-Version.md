@@ -26,7 +26,7 @@ An attacker can retrieve sensitive database information, including the database 
 
 ### `LAB2.01-original-request.png`
 
-![Original Request](screenshots/LAB2.01-original-request.png)
+![Original Request](screenshots/LAB2.01-original.request.png)
 
 ### `LAB2.02-column-count.png`
 
