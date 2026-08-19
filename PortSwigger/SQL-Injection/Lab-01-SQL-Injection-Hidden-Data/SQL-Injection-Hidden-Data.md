@@ -46,7 +46,7 @@ Gifts' OR '1'='1'-- -
 
 ### `LAB1.03-hidden-data.png`
 
-![Hidden Data](screenshots/LAB1.03-hidden-data.png)
+![Hidden Data](screenshots/LAB1.03-hidden-products.png)
 
 
 
