@@ -30,7 +30,7 @@ An attacker can retrieve sensitive database information, including the database 
 
 ### `LAB2.02-column-count.png`
 
-![Column Count](screenshots/LAB2.02-column-count.png)
+![Column Count](screenshots/LAB2.02-column.count.png)
 
 ### `LAB2.03-version-payload.png`
 
