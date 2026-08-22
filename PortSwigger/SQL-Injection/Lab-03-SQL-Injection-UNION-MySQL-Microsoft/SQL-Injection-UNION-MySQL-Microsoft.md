@@ -1,62 +1,60 @@
-# SQL Injection — UNION Attack: Retrieving Database Version
+# SQL Injection — UNION Attack: Database Type and Version
 
 ## Summary
 
-The application incorporates user-controlled input directly into the SQL query instead of treating it strictly as data. This allows an attacker to modify the query logic and execute an additional `SELECT` statement using a `UNION` attack.
+The application contains a SQL injection vulnerability in the product category filter.
 
-In this lab, the vulnerability can be exploited to retrieve the database type and version.
+User-controlled input is incorporated directly into an SQL query without proper parameterization. This allows an attacker to modify the query logic and use a `UNION` attack to retrieve information from the database.
+
+In this lab, the objective was to retrieve the database version string.
 
 ## Impact
 
-An attacker can retrieve sensitive information about the underlying database, including its type and version.
-
-This information can help an attacker identify the database technology and select further DBMS-specific attack techniques.
+An attacker can retrieve sensitive database information, such as the database type and version. This information can help identify database-specific behavior and support further attacks.
 
 ## Steps to Reproduce
 
-1. Navigate to the target application.
-2. Identify the injection point in the product category parameter.
+1. Navigate to the product category filter.
+2. Identify the vulnerable category parameter.
 3. Intercept the request using Burp Suite.
 4. Determine the number of columns returned by the original query.
-5. Identify a column that can display string data.
-6. Use a UNION SQL injection to retrieve the database version.
-7. Send the following payload:
+5. Identify a column compatible with string data.
+6. Use a `UNION SELECT` statement to retrieve the database version.
+7. Observe the database version in the application's response.
 
-```sql
-Pets' UNION SELECT NULL,@@version-- -
+## Proof of Concept
 
-8. Observe the database version in the application response.
+### Original Request
 
-Proof of Concept
-Original Request
+The original request shows the vulnerable product category parameter before the UNION attack is introduced.
 
-The original request contains the vulnerable product category parameter.
+![Original Request](screenshots/LAB3.01-original-request.png)
 
-Column Count
+### Column Count
 
-The number of columns returned by the original query was determined before performing the UNION attack.
+The number of columns returned by the original query is determined so the injected UNION query has a compatible structure.
 
-Version Payload
-Pets' UNION SELECT NULL,@@version-- -
-Result
+![Column Count](screenshots/LAB3.02-column-count.png)
 
-The application returns the database version information in the response.
+### Version Payload
 
-Root Cause
+A database-specific `UNION SELECT` payload is used to retrieve the version information.
 
-The application directly incorporates user-controlled input into the SQL query without using parameterized queries or prepared statements.
+![Version Payload](screenshots/LAB3.03-version-payload.png)
 
-As a result, an attacker can inject SQL syntax and modify the structure and logic of the original query.
+### Database Version
 
-Remediation
+The application's response displays the database version string returned by the injected query.
 
-Use parameterized queries or prepared statements so that user-controlled input is always treated as data rather than executable SQL.
+![Database Version](screenshots/LAB3.04-database-version.png)
 
-Additional measures include:
+## Root Cause
 
-Apply least-privilege database permissions.
-Avoid exposing unnecessary database information.
-Avoid detailed database error messages in production.
-Keep database software securely configured and updated.
+The application directly incorporates user-controlled input into an SQL query instead of using parameterized queries or prepared statements.
 
+## Remediation
+
+Use parameterized queries or prepared statements so that user-controlled input is treated as data rather than executable SQL.
+
+Additional security measures include applying least-privilege database permissions and avoiding unnecessary exposure of database information.
 
