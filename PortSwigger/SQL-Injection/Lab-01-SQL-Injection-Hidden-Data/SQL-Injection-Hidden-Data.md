@@ -52,7 +52,7 @@ The payload is inserted into the vulnerable category parameter to alter the SQL 
 
 The modified request bypasses the intended filtering condition, causing previously hidden products to appear in the response.
 
-![Hidden Data](screenshots/LAB1.03-hidden-data.png)
+![Hidden Data](screenshots/LAB1.03-hidden-products.png)
 
 
 ## Root Cause
