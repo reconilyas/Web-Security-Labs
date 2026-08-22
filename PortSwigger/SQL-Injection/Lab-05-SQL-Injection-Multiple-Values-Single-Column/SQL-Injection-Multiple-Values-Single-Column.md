@@ -41,19 +41,19 @@ The number of columns returned by the original query is determined so that the i
 
 String concatenation is used to combine multiple database values into a single column returned by the UNION query.
 
-![String Concatenation Payload](screenshots/LAB5.03-concatenation-payload.png)
+![String Concatenation Payload](screenshots/LAB5.03-string-column.png)
 
 ### Retrieved Credentials
 
 The modified query returns the usernames and passwords through the single compatible column.
 
-![Retrieved Credentials](screenshots/LAB5.04-retrieved-credentials.png)
+![Retrieved Credentials](screenshots/LAB5.04-multiple-values-payload.png)
 
 ### Administrator Login
 
 The retrieved administrator credentials are used to authenticate to the application.
 
-![Administrator Login](screenshots/LAB5.05-administrator-login.png)
+![Administrator Login](screenshots/LAB5.05-retrieved-credentials.png)
 
 ## Root Cause
 
