@@ -36,19 +36,23 @@ Gifts' OR '1'='1'-- -
 
 ## Proof of Concept
 
-### `LAB1.01-original-request.png`
+### Original Request
+
+The original request shows the vulnerable product category parameter before the SQL injection is introduced.
 
 ![Original Request](screenshots/LAB1.01-original-request.png)
 
-### `LAB1.02-sqli-payload.png`
+### SQL Injection Payload
+
+The payload is inserted into the vulnerable category parameter to alter the SQL query logic.
 
 ![SQL Injection Payload](screenshots/LAB1.02-sqli-payload.png)
 
-### `LAB1.03-hidden-data.png`
+### Hidden Data
 
-![Hidden Data](screenshots/LAB1.03-hidden-products.png)
+The modified request bypasses the intended filtering condition, causing previously hidden products to appear in the response.
 
-
+![Hidden Data](screenshots/LAB1.03-hidden-data.png)
 
 
 ## Root Cause
