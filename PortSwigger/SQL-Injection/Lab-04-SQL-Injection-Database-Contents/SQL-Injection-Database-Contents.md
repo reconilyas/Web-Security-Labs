@@ -30,7 +30,7 @@ An attacker can retrieve sensitive information from database tables, including u
 
 The original request shows the vulnerable product category parameter before the UNION attack is introduced.
 
-![Original Request](screenshots/LAB4.01-original-request.png)
+![Original Request](screenshots/LAB4.01-original.request.png)
 
 ### Database Structure
 
@@ -48,7 +48,7 @@ The relevant table and its username and password columns are identified.
 
 The UNION attack retrieves the usernames and passwords from the identified table.
 
-![Retrieved Credentials](screenshots/LAB4.04-retrieved-credentials.png)
+![Retrieved Credentials](screenshots/LAB4.04-credentials.png)
 
 ### Administrator Login
 
