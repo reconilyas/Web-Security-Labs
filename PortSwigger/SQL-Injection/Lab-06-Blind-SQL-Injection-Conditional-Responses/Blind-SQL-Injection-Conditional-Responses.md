@@ -29,23 +29,24 @@ The original request contains the tracking cookie before the blind SQL injection
 
 ![Original Request](screenshots/LAB6.01-original-request.png)
 
-### Conditional Payload
+### True Condition
 
-A conditional SQL payload is inserted into the tracking cookie. The `Welcome back` response indicates that the tested condition is true.
+The injected condition evaluates to true, causing the application to display the `Welcome back` message.
 
-![Conditional Payload](screenshots/LAB6.02-conditional-payload.png)
+![True Condition](screenshots/LAB6.02-true-condition.png)
+
+### False Condition
+
+When the condition evaluates to false, the `Welcome back` message is not displayed, providing a way to distinguish between true and false conditions.
+
+![False Condition](screenshots/LAB6.03-false-condition.png)
 
 ### Password Extraction
 
-Repeated conditional checks are used to infer the administrator password from the application's responses.
+By repeatedly testing conditions and observing the application's responses, information about the administrator's password can be extracted.
 
-![Password Extraction](screenshots/LAB6.03-password-extraction.png)
+![Password Extraction](screenshots/LAB6.04-password-extraction.png)
 
-### Administrator Login
-
-The recovered password is used to authenticate to the administrator account.
-
-![Administrator Login](screenshots/LAB6.04-administrator-login.png)
 
 ## Root Cause
 
