@@ -28,13 +28,13 @@ An attacker can retrieve sensitive database information, including the database 
 
 The original request shows the vulnerable product category parameter before the UNION attack is introduced.
 
-![Original Request](screenshots/LAB2.01-original-request.png)
+![Original Request](screenshots/LAB2.01-original.request.png)
 
 ### Column Count
 
 The number of columns returned by the original query is determined so that the injected UNION query has a compatible structure.
 
-![Column Count](screenshots/LAB2.02-column-count.png)
+![Column Count](screenshots/LAB2.02-column.count.png)
 
 ### Version Payload
 
