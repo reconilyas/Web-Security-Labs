@@ -24,21 +24,30 @@ An attacker can retrieve sensitive database information, including the database 
 
 ## Proof of Concept
 
-### `LAB2.01-original-request.png`
+### Original Request
 
-![Original Request](screenshots/LAB2.01-original.request.png)
+The original request shows the vulnerable product category parameter before the UNION attack is introduced.
 
-### `LAB2.02-column-count.png`
+![Original Request](screenshots/LAB2.01-original-request.png)
 
-![Column Count](screenshots/LAB2.02-column.count.png)
+### Column Count
 
-### `LAB2.03-version-payload.png`
+The number of columns returned by the original query is determined so that the injected UNION query has a compatible structure.
+
+![Column Count](screenshots/LAB2.02-column-count.png)
+
+### Version Payload
+
+A UNION SELECT payload is used to query the database for its version information.
 
 ![Version Payload](screenshots/LAB2.03-version-payload.png)
 
-### `LAB2.04-database-version.png`
+### Database Version
+
+The application's response displays the database version string returned by the injected query.
 
 ![Database Version](screenshots/LAB2.04-database-version.png)
+
 
 ## Root Cause
 
